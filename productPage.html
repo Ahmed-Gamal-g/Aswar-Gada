@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- icon fontawesome -->
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <!-- bootstrab -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&family=Merriweather:wght@300&family=Montagu+Slab:opsz@16..144&family=Montserrat:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&family=Merriweather:wght@300;400;700&family=Montserrat:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="./css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css" />
+
+    <!-- my css file -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- start navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="./index.html">
+          <img src="./images/logo-aswar-gada.png" alt="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto div-search">
+            <input
+              class=""
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              All categories
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider" /></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+            <div class="icon-search">
+              <!-- <i class="fas fa-search"></i> -->
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+          </ul>
+          <form class="d-flex">
+            <a href="login.html">
+              Sign in
+            </a>
+            <a href="signUp.html">
+              Sign up
+            </a>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="drob-hover">
+      <ul>
+        <!-- <div class="container"> -->
+        <li>
+          <a href="#">Laundry <i class="fa-solid fa-angle-down"></i> </a>
+          <ul class="dropdown">
+            <li><a href="productPage.html">Laptops</a></li>
+            <li><a href="productPage.html">Monitors</a></li>
+            <li><a href="productPage.html">Printers</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Refrigeration <i class="fa-solid fa-angle-down"></i> </a>
+          <ul class="dropdown">
+            <li><a href="productPage.html">Laptops</a></li>
+            <li><a href="productPage.html">Monitors</a></li>
+            <li><a href="productPage.html">Printers</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Dishwashers <i class="fa-solid fa-angle-down"></i> </a>
+          <ul class="dropdown">
+            <li><a href="productPage.html">Laptops</a></li>
+            <li><a href="productPage.html">Monitors</a></li>
+            <li><a href="productPage.html">Printers</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Cooking <i class="fa-solid fa-angle-down"></i> </a>
+          <ul class="dropdown">
+            <li><a href="productPage.html">Laptops</a></li>
+            <li><a href="productPage.html">Monitors</a></li>
+            <li><a href="productPage.html">Printers</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Vacuum Cleaners <i class="fa-solid fa-angle-down"></i> </a>
+          <ul class="dropdown">
+            <li><a href="productPage.html">Laptops</a></li>
+            <li><a href="productPage.html">Monitors</a></li>
+            <li><a href="productPage.html">Printers</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">TV & Entertainment <i class="fa-solid fa-angle-down"></i> </a>
+          <ul class="dropdown">
+            <li><a href="productPage.html">Laptops</a></li>
+            <li><a href="productPage.html">Monitors</a></li>
+            <li><a href="productPage.html">Printers</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Air Treatment <i class="fa-solid fa-angle-down"></i> </a>
+          <ul class="dropdown">
+            <li><a href="productPage.html">Laptops</a></li>
+            <li><a href="productPage.html">Monitors</a></li>
+            <li><a href="productPage.html">Printers</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Small Appliances <i class="fa-solid fa-angle-down"></i> </a>
+          <ul class="dropdown">
+            <li><a href="productPage.html">Laptops</a></li>
+            <li><a href="productPage.html">Monitors</a></li>
+            <li><a href="productPage.html">Printers</a></li>
+          </ul>
+        </li>
+        <!-- </div> -->
+      </ul>
+    </div>
+    <!-- end navbar -->
+
+    <div class="container">
+      <div class="filter-text-all">
+        <div class="filter">
+          <!-- <h3>Filters</h3> -->
+          <div class="box-slide">
+            <div class="title">
+              <i class="fa-solid fa-angle-down down-one"> </i>
+              <h5>Availability</h5>
+            </div>
+            <div class="div-diplay-one div-div-div active">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckDispatch"
+                />
+                <label class="form-check-label" for="flexCheckDispatch">
+                    A: Ready To Dispatch
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheck5Days"
+                />
+                <label class="form-check-label" for="flexCheck5Days">
+                    B: Dispatched Within 5 Days
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheck10Days"
+                />
+                <label class="form-check-label" for="flexCheck10Days">
+                    C: Dispatched Within 10 Days
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheck30Days"
+                />
+                <label class="form-check-label" for="flexCheck30Days">
+                    D: Dispatched Within 30 Days
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheck60Days"
+                />
+                <label class="form-check-label" for="flexCheck60Days">
+                    E: Dispatched Within 60 Days
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckStock"
+                />
+                <label class="form-check-label" for="flexCheckStock">
+                    Out of Stock
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="box-slide">
+            <div class="title title-two">
+              <i class="fa-solid fa-angle-down down-two"> </i>
+              <h5>Brand</h5>
+            </div>
+            <div class="div-diplay-two div-div-div active">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckBeko"
+                />
+                <label class="form-check-label" for="flexCheckBeko">
+                    Beko
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckBlomberg"
+                />
+                <label class="form-check-label" for="flexCheckBlomberg">
+                    Blomberg
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckBosch"
+                />
+                <label class="form-check-label" for="flexCheckBosch">
+                    Bosch
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckCandy"
+                />
+                <label class="form-check-label" for="flexCheckCandy">
+                    Candy
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckCandy"
+                />
+                <label class="form-check-label" for="flexCheckCandy">
+                    Candy
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckHaier"
+                />
+                <label class="form-check-label" for="flexCheckHaier">
+                    Haier
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckHoover"
+                />
+                <label class="form-check-label" for="flexCheckHoover">
+                    Hoover
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckHotpoint"
+                />
+                <label class="form-check-label" for="flexCheckHotpoint">
+                    Hotpoint
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckIndesit"
+                />
+                <label class="form-check-label" for="flexCheckIndesit">
+                    Indesit
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckIndesit"
+                />
+                <label class="form-check-label" for="flexCheckIndesit">
+                    Indesit
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckSamsung"
+                />
+                <label class="form-check-label" for="flexCheckSamsung">
+                    Samsung
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="box-slide">
+            <div class="title title-three">
+              <i class="fa-solid fa-angle-down down-three"> </i>
+              <h5>Capacity</h5>
+            </div>
+            <div class="div-diplay-three div-div-div active">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheck10kg"
+                />
+                <label class="form-check-label" for="flexCheck10kg">
+                    10kg
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheck10kg/6kg"
+                />
+                <label class="form-check-label" for="flexCheck10kg/6kg">
+                    10kg/6kg
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheck4kg"
+                />
+                <label class="form-check-label" for="flexCheck4kg">
+                    4kg
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheck6kg/5kg"
+                />
+                <label class="form-check-label" for="flexCheck6kg/5kg">
+                    6kg/5kg
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheck7kg"
+                />
+                <label class="form-check-label" for="flexCheck7kg">
+                    7kg
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheck7kg/4kg"
+                />
+                <label class="form-check-label" for="flexCheck7kg/4kg">
+                    7kg/4kg
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheck7kg/5kg"
+                />
+                <label class="form-check-label" for="flexCheck7kg/5kg">
+                    7kg/5kg
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheck8kg"
+                />
+                <label class="form-check-label" for="flexCheck8kg">
+                    8kg
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheck8kg/5kg"
+                />
+                <label class="form-check-label" for="flexCheck8kg/5kg">
+                    8kg/5kg
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheck9kg"
+                />
+                <label class="form-check-label" for="flexCheck9kg">
+                    9kg
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheck9kg/6kg"
+                />
+                <label class="form-check-label" for="flexCheck9kg/6kg">
+                    9kg/6kg
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="box-slide">
+            <div class="title title-four">
+              <i class="fa-solid fa-angle-down down-four"> </i>
+              <h5>Category</h5>
+            </div>
+            <div class="div-diplay-four div-div-div active">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckTumble"
+                />
+                <label class="form-check-label" for="flexCheckTumble">
+                    Tumble Dryers
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckWasher"
+                />
+                <label class="form-check-label" for="flexCheckWasher">
+                    Washer Dryers
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckWashing"
+                />
+                <label class="form-check-label" for="flexCheckWashing">
+                    Washing Machines
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="box-slide">
+            <div class="title title-five">
+              <i class="fa-solid fa-angle-down down-five"> </i>
+              <h5>Style</h5>
+            </div>
+            <div class="div-diplay-five div-div-div active">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckFreestanding"
+                />
+                <label class="form-check-label" for="flexCheckFreestanding">
+                    Freestanding
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckIntegrated"
+                />
+                <label class="form-check-label" for="flexCheckIntegrated">
+                    Integrated
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="box-slide">
+            <div class="title title-six">
+              <i class="fa-solid fa-angle-down down-six"> </i>
+              <h5>Category</h5>
+            </div>
+            <div class="div-diplay-six div-div-div active">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheck1200"
+                />
+                <label class="form-check-label" for="flexCheck1200">
+                    1200 rpm
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheck1400 rpm"
+                />
+                <label class="form-check-label" for="flexCheck1400">
+                    1400 rpm
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheck1500"
+                />
+                <label class="form-check-label" for="flexCheck1500">
+                    1500 rpm
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheck1600"
+                />
+                <label class="form-check-label" for="flexCheck1600">
+                    1600 rpm
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-text">
+            <section class="sec-our-product sec-text">
+                <div class="container">
+                  <div class="row">
+                    <div class="enwan-Tv-Entertainment">
+                        <h3>TV & Entertainment</h3>
+                        <p>Explore our range of: <a href="">Washing Machines</a> | <a href="">Washer Dryers</a> | <a href="">Tumble Dryers</a></p>
+                    </div>
+                    <div class="col-sm-4 col-md-4 col-lg-3">
+                      <a href="productPageVendor.html">
+                        <img src="./images/img-labtop.png" alt="" />
+                        <p>
+                          Brand ATC Resolution 720p Connectivity Technology USB, HDMI LED
+                          display technology - Black color
+                        </p>
+                        <p><p style="color: #e91c23">SAR 529</p></p>
+                      </a>
+                    </div>
+                    <div class="col-sm-4 col-md-4 col-lg-3">
+                      <a href="productPageVendor.html">
+                          <img src="./images/img-labtop.png" alt="" />
+                          <p>
+                            Brand ATC Resolution 720p Connectivity Technology USB, HDMI LED
+                            display technology - Black color
+                          </p>
+                          <p><p style="color: #e91c23">SAR 529</p></p>
+                        </a>
+                    </div>
+                    <div class="col-sm-4 col-md-4 col-lg-3">
+                      <a href="productPageVendor.html">
+                          <img src="./images/img-labtop.png" alt="" />
+                          <p>
+                            Brand ATC Resolution 720p Connectivity Technology USB, HDMI LED
+                            display technology - Black color
+                          </p>
+                          <p><p style="color: #e91c23">SAR 529</p></p>
+                        </a>
+                    </div>
+                    <div class="col-sm-4 col-md-4 col-lg-3">
+                      <a href="productPageVendor.html">
+                          <img src="./images/img-labtop.png" alt="" />
+                          <p>
+                            Brand ATC Resolution 720p Connectivity Technology USB, HDMI LED
+                            display technology - Black color
+                          </p>
+                          <p><p style="color: #e91c23">SAR 529</p></p>
+                        </a>
+                    </div>
+                    <div class="col-sm-4 col-md-4 col-lg-3">
+                      <a href="productPageVendor.html">
+                          <img src="./images/img-labtop.png" alt="" />
+                          <p>
+                            Brand ATC Resolution 720p Connectivity Technology USB, HDMI LED
+                            display technology - Black color
+                          </p>
+                          <p><p style="color: #e91c23">SAR 529</p></p>
+                        </a>
+                    </div>
+                    <div class="col-sm-4 col-md-4 col-lg-3">
+                      <a href="productPageVendor.html">
+                          <img src="./images/img-labtop.png" alt="" />
+                          <p>
+                            Brand ATC Resolution 720p Connectivity Technology USB, HDMI LED
+                            display technology - Black color
+                          </p>
+                          <p><p style="color: #e91c23">SAR 529</p></p>
+                        </a>
+                    </div>
+                    <div class="col-sm-4 col-md-4 col-lg-3">
+                      <a href="productPageVendor.html">
+                          <img src="./images/img-labtop.png" alt="" />
+                          <p>
+                            Brand ATC Resolution 720p Connectivity Technology USB, HDMI LED
+                            display technology - Black color
+                          </p>
+                          <p><p style="color: #e91c23">SAR 529</p></p>
+                        </a>
+                    </div>
+                    <div class="col-sm-4 col-md-4 col-lg-3">
+                      <a href="productPageVendor.html">
+                          <img src="./images/img-labtop.png" alt="" />
+                          <p>
+                            Brand ATC Resolution 720p Connectivity Technology USB, HDMI LED
+                            display technology - Black color
+                          </p>
+                          <p><p style="color: #e91c23">SAR 529</p></p>
+                        </a>
+                    </div>
+                    <div class="col-sm-4 col-md-4 col-lg-3">
+                      <a href="productPageVendor.html">
+                          <img src="./images/img-labtop.png" alt="" />
+                          <p>
+                            Brand ATC Resolution 720p Connectivity Technology USB, HDMI LED
+                            display technology - Black color
+                          </p>
+                          <p><p style="color: #e91c23">SAR 529</p></p>
+                        </a>
+                    </div>
+                    <div class="col-sm-4 col-md-4 col-lg-3">
+                      <a href="productPageVendor.html">
+                          <img src="./images/img-labtop.png" alt="" />
+                          <p>
+                            Brand ATC Resolution 720p Connectivity Technology USB, HDMI LED
+                            display technology - Black color
+                          </p>
+                          <p><p style="color: #e91c23">SAR 529</p></p>
+                        </a>
+                    </div>
+                    <div class="col-sm-4 col-md-4 col-lg-3">
+                      <a href="productPageVendor.html">
+                          <img src="./images/img-labtop.png" alt="" />
+                          <p>
+                            Brand ATC Resolution 720p Connectivity Technology USB, HDMI LED
+                            display technology - Black color
+                          </p>
+                          <p><p style="color: #e91c23">SAR 529</p></p>
+                        </a>
+                    </div>
+                    <div class="col-sm-4 col-md-4 col-lg-3">
+                      <a href="productPageVendor.html">
+                          <img src="./images/img-labtop.png" alt="" />
+                          <p>
+                            Brand ATC Resolution 720p Connectivity Technology USB, HDMI LED
+                            display technology - Black color
+                          </p>
+                          <p><p style="color: #e91c23">SAR 529</p></p>
+                        </a>
+                    </div>
+                    <!-- ^^^^^^^^^^^^^^^^^ -->
+                    <nav class="nav-pagination">
+                        <ul class="pagination justify-content-center fixed-bottom">
+                          <li class="page-item disabled border-radius" title="previous">
+                            <a href="" class="page-link m-1"> Prev </a>
+                          </li>
+                          <li class="page-item active"> <a href="productPage.html" class="page-link rounded-circle m-1">1</a></li>
+                          <li class="page-item"> <a href="pagination2.html" class="page-link rounded-circle m-1">2</a></li>
+                          <li class="page-item"> <a href="pagination3.html" class="page-link rounded-circle m-1">3</a></li>
+                          <li class="page-item"> <a href="pagination4.html" class="page-link rounded-circle m-1">4</a></li>        
+                          <li class="page-item border-radius" title="next">
+                            <a href="pagination2.html" class="page-link m-1"> Next </a>
+                          </li>
+                        </ul>
+                      </nav>
+                    <!-- ^^^^^^^^^^^^^^^^^ -->
+                  </div>
+                </div>
+            </section>
+        </div>
+      </div>
+    </div>
+
+            <!-- start section delivery -->
+            <section class="Delivery">
+              <div class="container">
+                  <div class="small-box-all">
+                      <div class="small-box">
+                          <div class="img-smallbox">
+                              <img src="./images/small-img-footer-1.png" alt="">
+                          </div>
+                          <div class="text-small-box">
+                              <p class="change-color-enwan">Free Delivery</p>
+                              <p>Free delivery available on all large 
+                                 appliances over £250.
+                              </p>
+                          </div>
+                      </div>
+                      <div class="small-box">
+                          <div class="img-smallbox">
+                              <img src="./images/small-img-footer-2.png" alt="">
+                          </div>
+                          <div class="text-small-box">
+                              <p class="change-color-enwan">Looking for help?</p>
+                                  <a href="tel:+966502211697">Call: + 966502211697</a>
+                                  <a href="tel:966506792468">Call: + 966506792468</a>
+                                  <a href="tel:966506591697">Call: + 966506591697</a>
+                          </div>
+                      </div>
+                      <div class="small-box">
+                          <div class="img-smallbox">
+                              <img src="./images/small-img-footer-3.png" alt="">
+                          </div>
+                          <div class="text-small-box">
+                              <p class="change-color-enwan">Have a question?</p>
+                              <p>Email us on: <a href="mailto:aswarjeddah1@gmail.com">aswarjeddah1@gmail.com</a>
+                              </p>
+                          </div>
+                      </div>
+                      <div class="small-box">
+                          <div class="img-smallbox">
+                              <img src="./images/small-img-footer-4.png" alt="">
+                          </div>
+                          <div class="text-small-box">
+                              <p class="change-color-enwan">Secure payments</p>
+                              <p>Shop with confidence.</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </section>
+          <!-- end section delivery -->
+      
+          <!-- start footer -->
+          <footer>
+            <div class="container">
+              <div class="foot-all">
+                <div class="links-foot">
+                  <a href="termsAndCondition.html">Terms and Conditions</a>
+                  <a href="privacy.html">Privacy</a>
+                  <a href="">Who Are We</a>
+                  <a href="contactUs.html">Contact Us</a>
+                </div>
+                <div class="icon-foot">
+                  <a href="https://www.facebook.com">
+                    <i class="fa-brands fa-facebook"></i>
+                  </a>
+                  <a href="https://www.instagram.com">
+                    <i class="fa-brands fa-instagram-square"></i>
+                  </a>
+                  <a href="https://www.twitter.com">
+                    <i class="fa-brands fa-twitter-square"></i>
+                  </a>
+                  <!-- <i class="fa-brands fa-instagram-square"></i>
+                  <i class="fa-brands fa-twitter-square"></i> -->
+                </div>
+                <div class="copyright">
+                  <p>copyrights <i class="fa-regular fa-copyright"></i> 2022</p>
+                </div>
+              </div>
+            </div>
+          </footer>
+          <!-- end footer -->
+
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
