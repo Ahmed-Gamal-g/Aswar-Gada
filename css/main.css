@@ -749,6 +749,19 @@ height: var(--swiper-navigation-size); */
     justify-content: center;
     flex-wrap: wrap;
   }
+  
+    .pagination {
+    display: flex;
+    padding-left: 0;
+    align-items: center;
+    gap: 2px;
+    list-style: none;
+  }
+
+  .rounded-circle {
+    /* border-radius: 0% !important; */
+    padding: 3px 7px;
+  }
 }
 /* end page product Page */
 
